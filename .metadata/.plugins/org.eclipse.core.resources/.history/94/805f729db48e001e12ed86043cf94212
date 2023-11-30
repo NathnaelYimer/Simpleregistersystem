@@ -1,0 +1,12 @@
+package com.itsc;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class login extends HttpServlet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

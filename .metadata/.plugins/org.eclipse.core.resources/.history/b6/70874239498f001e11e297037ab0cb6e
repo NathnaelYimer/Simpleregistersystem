@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<body>
+    <h1>Welcome, <%= session.getAttribute("userEmail") %>!</h1>
+    <!-- Display welcome message or user-specific content here -->
+</body>

@@ -1,0 +1,4 @@
+<body>
+    <h1>Welcome, <%= session.getAttribute("userEmail") %>!</h1>
+    <!-- Display welcome message or user-specific content here -->
+</body>

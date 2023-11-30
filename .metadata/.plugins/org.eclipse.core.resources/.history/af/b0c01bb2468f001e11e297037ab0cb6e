@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<body bgcolor="orange">
+    <%
+        int n1 = Integer.parseInt(request.getParameter("num1"));
+        int n2 = Integer.parseInt(request.getParameter("num2"));
+        int k = n1 + n2;
+    %>
+    Output is: <%= k %>
+</body>
+</html>
